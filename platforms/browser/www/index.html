@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAD9014 Final F2016</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+
+    <main>
+    
+<!--
+    Two page navigation
+    From http://codepen.io/ProfessorTony/pen/dOZrZW
+-->
+<!--       Page 1-->
+        <div id="results" class="page active">
+            <header>
+                <h1>Scores</h1>
+            </header>
+            
+            <ul class="results_list">
+
+            </ul>
+
+        </div>
+<!--       Page 2-->
+       <div id="standings" class="page">
+            <header>
+                <h1>Standings</h1>
+            </header>
+           
+            <table id="teamStandings">
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>T</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- load the results here after calculating them -->
+
+            </tbody>
+        </table>
+
+<!--
+            <ul class="standings_list">
+
+            </ul>
+-->
+
+        </div>
+        
+           <section  class="nav">
+        <ul class="navlist">
+            <li><a class="results" href="#">Results</a></li>
+            <li><a class="standings" href="#">Standings</a></li>
+        </ul>
+       
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <time datetime="2016">2016</time> Ryan Radmore</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
